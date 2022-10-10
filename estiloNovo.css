@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&family=Patua+One&family=Righteous&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Lato';
+}
+
+/*Scrollbar - barra de rolagem vertical mudando as cores*/
+::-webkit-scrollbar {
+    width:15px;
+    height: 5px;
+}
+::-webkit-scrollbar-track {
+        background:white;
+}
+::-webkit-scrollbar-thumb {
+        background: #cf7a00;
+}
+/**/
+
+body{
+    background-color: #000017;
+}
+
+b{
+    color:#cf7a00;
+}
+c{
+    font-size: 24px;
+    color:blue;
+}
+
+
+li, a{
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color:#000017;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav__links{
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav__links li a:hover{
+    color:#cf7a00;
+}
+
+
+.home{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0px 5%;
+}
+
+
+.container{
+    margin-top: 10px; 
+}
+.container li{
+    list-style: none;
+    margin-top: 15px;
+}
+.container h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_social{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+.container_social li,img{ 
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 10px;
+    border-radius: 100%;
+}
+.container_social img:hover{
+    opacity: 0.8;
+}
+
+.container_sobre_e_conhecimentos{
+    align-items: center;
+    padding: 40px 13% 60px;
+    display: block;
+    background-color: #110933;
+}
+.sobre_mim{
+    background-color: #000017;
+    border-radius: 10px;
+    margin-top: 40px;
+    
+}
+.sobre_mim p{
+    text-align: center;
+    font-size: 24px;
+    padding:40px 35px 40px 40px;
+}
+
+.conhecimentos{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center ;
+   
+}
+
+.conhecimentos li{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color:#000017;
+    border-radius: 10px;
+}
+.conhecimentos span{
+    margin-top: 12px;
+    font-size: 28px;
+    font-family: 'Lato';
+    display: flex;
+    justify-content: center;
+}
+.conhecimentos p{
+    padding-left:20px;
+    padding-right:20px;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.conhecimentos img{
+    margin-top: 16px;
+    width: 100px;
+    border-radius: 0%;
+}
+
+
+
+
+.formulario{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.formulario label{
+    display: flex;
+    justify-content: center;
+    margin-top:  20px;
+    font-size: 32px;
+    font-family: "Lato",sans-serif;
+}
+.formulario_email{
+    color: black;
+    margin-top: 10px;
+    display: block;
+    max-width: 450px;
+    max-height: 100px;
+    width: 400px;
+    height: 40px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-left: 1rem;
+    outline: transparent;
+}
+
+.formulario_botao{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    display: block;
+    max-width: 450px;
+    max-height: 100px;
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    background-color: rgb(207, 122, 0);
+    color:white;
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.formulario_botao:hover{
+    background-color: rgb(219, 157, 71);
+}
+
+
+
