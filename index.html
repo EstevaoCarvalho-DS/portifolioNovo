@@ -88,10 +88,16 @@
         </div>
     </div>
 
-    <div class="formulario" id="contato">
+    <div class="container_formulario" id="contato">
         <form>
-            <label for="email">Me mande seu E-mail</label>
-            <input class="formulario_email" required id="email" type="email" placeholder="">
+            <h1><b>Contato</b></h1>
+            <h3 style="margin-bottom: 50px;">entre em contato comigo</h3>
+            <label for="nome">Digite seu nome</label>
+            <input class="formulario_input" required id="nome" type="input" placeholder="">
+            <label for="email">Digite seu E-mail</label>
+            <input class="formulario_input" required id="email" type="email" placeholder="">
+            <label for="assunto">Assunto</label>
+            <textarea class="formulario_input" maxlength="300" style="height: 120px; max-width: 400px; max-height: 200px; min-width: 400px;min-height: 100px; padding: 1rem;" id="assunto" placeholder=""></textarea>
             <button class="formulario_botao" type="submit">Enviar</button>
         </form>  
     </div>
