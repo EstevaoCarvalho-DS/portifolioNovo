@@ -25,19 +25,22 @@
 }
 /**/
 
+/* background só mundando a cor do body em geral*/
 body{
     background-color: #000017;
 }
 
+/* classe para <b> mudar a cor e ficar bonitinho*/
 b{
     color:#cf7a00;
 }
+/*mesma coisa so <b>*/
 c{
     font-size: 24px;
     color:blue;
 }
 
-
+/*mudando a li e a de forma geral*/
 li, a{
     font-family: 'Righteous', cursive;
     font-weight: 500;
@@ -46,6 +49,7 @@ li, a{
     color: white;
 }
 
+/*cabeçalho, onde fica a navbar com os links para navegar no site, inicio, sobre, etc*/
 header{
     background-color:#000017;
     width: 100%;
@@ -56,23 +60,26 @@ header{
     padding: 10px 15%;
 }
 
+/*classe para mudar o ponteiro do mouse quando passar em cima do logo*/
 .logo{
     cursor: pointer;
 }
 
+/*ul da navbar*/
 .nav__links{
     list-style: none;
 }
+/*a navbar é feita em li (lista) aq muda ela*/
 .nav__links li {
     display: inline-block;
     padding: 0px 15px;
 }
-
+/*quando passar o mouse por cima dos itens da lista da navbar*/
 .nav__links li a:hover{
     color:#cf7a00;
 }
 
-
+/*container home*/
 .home{
     margin-top: 120px;
     width: 100%;
@@ -82,10 +89,11 @@ header{
     padding: 0px 5%;
 }
 
-
+/*estilizaçao do container home*/
 .container{
     margin-top: 10px; 
 }
+/*estilização da lista dentro do container*/
 .container li{
     list-style: none;
     margin-top: 15px;
@@ -93,7 +101,7 @@ header{
 .container h3{
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/*container dentro do outro container para posicionar os itens de social e deixa-los dispostos de forma diferente do container principal*/
 .container_social{
     display: flex;
     margin-top: 40px;
@@ -108,7 +116,7 @@ header{
 .container_social img:hover{
     opacity: 0.8;
 }
-
+/*container para dispor as informaçoes de forma corretamente espaçada, tudo no centro tendo um padding que de um visual interessante*/
 .container_sobre_e_conhecimentos{
     align-items: center;
     padding: 40px 13% 60px;
@@ -126,14 +134,14 @@ header{
     font-size: 24px;
     padding:40px 35px 40px 40px;
 }
-
+/*container que dispoem os itens um do lado do outro no centro*/
 .conhecimentos{
     margin-top: 40px;
     display: flex;
     justify-content: center ;
    
 }
-
+/*lista estilizando os itens dentro de forma organizada, um do lado do outro em linha, quebrando esta quando necessario, dispondo um em cima do outro*/
 .conhecimentos li{
     margin-left: 20px;
     margin-bottom: 20px;
@@ -144,6 +152,7 @@ header{
     background-color:#000017;
     border-radius: 10px;
 }
+/*span que serve de titulo para os conteudos da li, colocada no centro dentro da li*/
 .conhecimentos span{
     margin-top: 12px;
     font-size: 28px;
@@ -151,6 +160,7 @@ header{
     display: flex;
     justify-content: center;
 }
+/*paragrafo da li de conhecimentos no centro com padding para dar as distancias corretas*/
 .conhecimentos p{
     padding-left:20px;
     padding-right:20px;
@@ -167,7 +177,7 @@ header{
 
 
 
-
+/*formulario para contato*/
 .container_formulario{
     margin-top: 35px;
     display: flex;
@@ -179,7 +189,7 @@ header{
     display: flex;
     justify-content: left;
     margin-top:  20px;
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Lato",sans-serif;
 }
 .formulario_input{
@@ -218,3 +228,6 @@ header{
 .formulario_botao:hover{
     background-color: rgb(219, 157, 71);
 }
+
+
+
