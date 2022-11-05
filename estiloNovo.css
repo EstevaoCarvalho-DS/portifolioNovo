@@ -29,7 +29,11 @@
 body{
     background-color: #000017;
 }
-
+.background_home{
+    background-image:url(imagens/slider4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* classe para <b> mudar a cor e ficar bonitinho*/
 b{
     color:#cf7a00;
@@ -37,7 +41,10 @@ b{
 /*mesma coisa so <b>*/
 c{
     font-size: 24px;
-    color:blue;
+    color:#0000ff;
+}
+c:hover{
+    text-decoration:underline;
 }
 
 /*mudando a li e a de forma geral*/
@@ -81,7 +88,7 @@ header{
 
 /*container home*/
 .home{
-    margin-top: 120px;
+    margin-top: 100px;
     width: 100%;
     display: flex;
     justify-content:space-around;
@@ -91,8 +98,15 @@ header{
 
 /*estilizaçao do container home*/
 .container{
-    margin-top: 10px; 
+    margin-top: 40px; 
 }
+.container ul{
+    background-image: url(imagens/1234.png);
+    border-radius: 10px;
+    background-size: cover;
+    padding: 10px 20px 30px 20px;
+}
+
 /*estilização da lista dentro do container*/
 .container li{
     list-style: none;
@@ -104,10 +118,12 @@ header{
 /*container dentro do outro container para posicionar os itens de social e deixa-los dispostos de forma diferente do container principal*/
 .container_social{
     display: flex;
-    margin-top: 40px;
+    margin-top: 5px;
+    margin-bottom: 90px;
     align-items: center;
 }
-.container_social li,img{ 
+
+.container_social li,img,p{ 
     display: inline-block;
     margin-top: 0px;
     margin-left: 10px;
@@ -119,7 +135,7 @@ header{
 /*container para dispor as informaçoes de forma corretamente espaçada, tudo no centro tendo um padding que de um visual interessante*/
 .container_sobre_e_conhecimentos{
     align-items: center;
-    padding: 40px 13% 60px;
+    padding: 40px 13.5% 60px;
     display: block;
     background-color: #110933;
 }
@@ -182,7 +198,7 @@ header{
     margin-top: 35px;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+
 }
 
 .container_formulario label{
@@ -201,7 +217,7 @@ header{
     width: 400px;
     height: 40px;
     border-style: none;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 1rem;
     padding-left: 1rem;
     outline: transparent;
@@ -221,7 +237,7 @@ header{
     background-color: rgb(207, 122, 0);
     color:white;
     border-style: none;
-    border-radius: 15px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
