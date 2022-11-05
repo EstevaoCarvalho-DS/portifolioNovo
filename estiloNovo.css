@@ -254,4 +254,13 @@ header{
     padding: 10px 20px 10px 20px;
 }
 
-
+.copyright{
+    width: 100%;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 10px 5%;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
