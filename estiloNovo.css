@@ -46,7 +46,9 @@ c{
 c:hover{
     text-decoration:underline;
 }
-
+o{
+    color:red;
+}
 /*mudando a li e a de forma geral*/
 li, a{
     font-family: 'Righteous', cursive;
@@ -198,7 +200,8 @@ header{
     margin-top: 35px;
     display: flex;
     justify-content: center;
-
+    background-image: url(imagens/backgroundContato.png);
+    background-size: cover;
 }
 
 .container_formulario label{
@@ -214,7 +217,7 @@ header{
     display: block;
     max-width: 450px;
     max-height: 100px;
-    width: 400px;
+    width: 380px;
     height: 40px;
     border-style: none;
     border-radius: 5px;
@@ -230,7 +233,7 @@ header{
     display: block;
     max-width: 450px;
     max-height: 100px;
-    width: 400px;
+    width: 380px;
     height: 50px;
     font-size: 16px;
     font-family: "Lato",sans-serif;
@@ -244,6 +247,11 @@ header{
 .formulario_botao:hover{
     background-color: rgb(219, 157, 71);
 }
-
+.container_formulario ul{
+    background-image: url(imagens/12345.png);
+    border-radius: 10px;
+    background-size: cover;
+    padding: 10px 20px 10px 20px;
+}
 
 

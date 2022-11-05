@@ -11,7 +11,7 @@
 <body>
     <div class="background_home">
         <header>
-            <img class="logo" src="imagens/logo1.png" alt="logotipo" width="40px">
+            <img class="logo" src="imagens/logo1.png" alt="logo" width="40px">
             <nav>
                 <ul class="nav__links">
                     <li><a href="#">início</a></li>
@@ -91,18 +91,21 @@
     
     <div class="container_formulario" id="contato">
         <form>
+            <ul >
             <h1><b>Contato</b></h1>
             <h3 style="margin-bottom: 50px;">entre em contato comigo</h3>
-            <label for="nome">Digite seu nome</label>
+            
+            <label for="nome">Digite seu nome <o> *</o></label>
             <input class="formulario_input" required id="nome" type="input" placeholder="">
-            <label for="email">Digite seu E-mail</label>
+            <label for="email">Digite seu E-mail <o> *</o></label>
             <input class="formulario_input" required id="email" type="email" placeholder="">
             <label for="assunto">Mensagem</label>
-            <textarea class="formulario_input" maxlength="500" style="height: 120px; max-width: 400px; max-height: 200px; min-width: 400px;min-height: 100px; padding: 1rem;" id="assunto" placeholder=""></textarea>
+            <textarea class="formulario_input" maxlength="500" style="height: 120px; max-width: 380px; max-height: 200px; min-width: 380px;min-height: 100px; padding: 1rem;" id="assunto" placeholder=""></textarea>
             <button class="formulario_botao" type="submit">Enviar</button>
+            </ul>
         </form>  
     </div>
-
+<br>
 
 </body>
 </html>
